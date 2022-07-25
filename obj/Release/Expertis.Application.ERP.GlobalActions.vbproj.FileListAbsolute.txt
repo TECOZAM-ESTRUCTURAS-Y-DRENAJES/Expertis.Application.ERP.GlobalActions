@@ -1,0 +1,32 @@
+C:\Builds\2\Producto\Expertis50R2_Release\bin\Release\Expertis.Application.ERP.GlobalActions.dll
+C:\Builds\2\Producto\Expertis50R2_Release\bin\Release\Expertis.Application.ERP.GlobalActions.pdb
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.GlobalActions\obj\Release\ResolveAssemblyReference.cache
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.FrmCopiaArticulo.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.FrmPrintPreview.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.frmSeleccionarFecha.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.FrmSelecOpt.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.frmCierreContableEjercicio.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.frmDeshacerCierreContableEjercicio.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.frmContadorFechaAlbaran.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.frmContadorFechaFactura.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.Resources.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.frmSatelites.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Expertis.Application.ERP.GlobalActions.vbproj.GenerateResource.Cache
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Expertis.Application.ERP.GlobalActions.dll
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Expertis.Application.ERP.GlobalActions.pdb
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Release\ResolveAssemblyReference.cache
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.FrmCopiaArticulo.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.FrmPrintPreview.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.frmSeleccionarFecha.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.FrmSelecOpt.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.frmCierreContableEjercicio.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.frmDeshacerCierreContableEjercicio.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.frmContadorFechaAlbaran.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.frmContadorFechaFactura.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.Resources.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.frmSatelites.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Expertis.Application.ERP.GlobalActions.vbproj.GenerateResource.Cache
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Expertis.Application.ERP.GlobalActions.dll
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Expertis.Application.ERP.GlobalActions.pdb
+C:\ExpertisNet50R2test\Bin\Expertis.Application.ERP.GlobalActions.dll
+C:\ExpertisNet50R2test\Bin\Expertis.Application.ERP.GlobalActions.pdb

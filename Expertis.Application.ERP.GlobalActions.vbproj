@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5D628C2D-543C-4FDC-B705-4CAE5D5AC16D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Solmicro.Expertis.Application.ERP.GlobalActions</RootNamespace>
+    <AssemblyName>Expertis.Application.ERP.GlobalActions</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\..\Bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>Full</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\..\..\..\..\ExpertisNet50R2test\Bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="Expertis.Application.ERP.AlbaranCompra, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Application.ERP.AlbaranVenta, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Application.ERP.CommonClasses, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Application.ERP.FactElecCorreo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Application.ERP.FacturaCompra, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Application.ERP.FacturaVenta, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Application.ERP.GDProgramas, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Application.ERP.PlanificadorRecursos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Application.ERP.SolicitudCompra, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.BusinessEnum, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.ClasesTecozam, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Expertis.Business.Compra, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.Financiero, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.General, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.Negocio, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Engine.BE.BusinessEngine, Version=5.0.0.0, Culture=neutral, PublicKeyToken=f4e70a047dadc395, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Engine.Global, Version=5.0.0.0, Culture=neutral, PublicKeyToken=f4e70a047dadc395, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Engine.UI.CommonClasses, Version=5.0.0.0, Culture=neutral, PublicKeyToken=f4e70a047dadc395, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Engine.UI.Resources, Version=5.0.0.0, Culture=neutral, PublicKeyToken=f4e70a047dadc395, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Engine.UI.WinControls, Version=5.0.0.0, Culture=neutral, PublicKeyToken=f4e70a047dadc395, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Janus.Data.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.ButtonBar.v3, Version=3.5.109.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.CalendarCombo.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.Common.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.ExplorerBar.v3, Version=3.5.109.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.FilterEditor.v3, Version=3.5.109.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.Schedule.v3, Version=3.5.109.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.TimeLine.v3, Version=3.5.109.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Janus.Windows" />
+    <Import Include="Janus.Windows.Common" />
+    <Import Include="Janus.Windows.UI" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.PowerPacks" />
+    <Import Include="Solmicro.Expertis.Application.ERP" />
+    <Import Include="Solmicro.Expertis.Application.ERP.CommonClasses" />
+    <Import Include="Solmicro.Expertis.Application.ERP.FactElecCorreo" />
+    <Import Include="Solmicro.Expertis.Application.ERP.GDProgramas" />
+    <Import Include="Solmicro.Expertis.Application.ERP.PlanificadorRecursos" />
+    <Import Include="Solmicro.Expertis.Business.BusinessEnum" />
+    <Import Include="Solmicro.Expertis.Business.Compra" />
+    <Import Include="Solmicro.Expertis.Business.Financiero" />
+    <Import Include="Solmicro.Expertis.Business.General" />
+    <Import Include="Solmicro.Expertis.Business.Negocio" />
+    <Import Include="Solmicro.Expertis.Engine" />
+    <Import Include="Solmicro.Expertis.Engine.BE" />
+    <Import Include="Solmicro.Expertis.Engine.BE.BusinessProcesses" />
+    <Import Include="Solmicro.Expertis.Engine.LicenseContent" />
+    <Import Include="Solmicro.Expertis.Engine.UI" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Windows.Forms.VisualStyles" />
+    <Import Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Articulos\ClsCopiaArticulo.vb" />
+    <Compile Include="Articulos\FrmCopiaArticulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calendarios\ClsPrintCal.vb" />
+    <Compile Include="Calendarios\FrmPrintPreview.Designer.vb">
+      <DependentUpon>FrmPrintPreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calendarios\FrmPrintPreview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\clsCopiarCliente.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compras\ClsComunAlbFactCompra.vb" />
+    <Compile Include="Compras\clsContabilizarProvisionAC.vb" />
+    <Compile Include="Compras\ClsCopiaPedCompra.vb" />
+    <Compile Include="Compras\ClsGenerarAlbFactCompra.vb" />
+    <Compile Include="Compras\ClsGenerarPedCompra.vb" />
+    <Compile Include="Compras\frmSeleccionarFecha.Designer.vb">
+      <DependentUpon>frmSeleccionarFecha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\frmSeleccionarFecha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Correos\ClsConfigCorreos.vb" />
+    <Compile Include="ELM\clsVerELM.vb" />
+    <Compile Include="ELM\FrmSelecOpt.Designer.vb">
+      <DependentUpon>FrmSelecOpt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ELM\FrmSelecOpt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Financiero\CierreContableEjercicio.vb" />
+    <Compile Include="Financiero\DeshacerCierreContableEjercicio.vb" />
+    <Compile Include="Financiero\frmCierreContableEjercicio.Designer.vb">
+      <DependentUpon>frmCierreContableEjercicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Financiero\frmCierreContableEjercicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Financiero\frmDeshacerCierreContableEjercicio.Designer.vb">
+      <DependentUpon>frmDeshacerCierreContableEjercicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Financiero\frmDeshacerCierreContableEjercicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmContadorFechaAlbaran.Designer.vb">
+      <DependentUpon>frmContadorFechaAlbaran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmContadorFechaAlbaran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmContadorFechaFactura.Designer.vb">
+      <DependentUpon>frmContadorFechaFactura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmContadorFechaFactura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAIA\clsExportFactVentaGAIA.vb" />
+    <Compile Include="GAIA\clsExportMasivoFactVentaGAIA.vb" />
+    <Compile Include="PlanificadorRecursos\clsPlanificadorRecursosObras.vb" />
+    <Compile Include="PlanificadorRecursos\clsPlanificadorRecursosOTs.vb" />
+    <Compile Include="Proveedores\clsCopiarProveedor.vb" />
+    <Compile Include="TablasAux\ClsSatelites.vb" />
+    <Compile Include="TablasAux\frmSatelites.Designer.vb">
+      <DependentUpon>frmSatelites.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TablasAux\frmSatelites.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas\ClsComunAlbFactVenta.vb" />
+    <Compile Include="Ventas\ClsCopiaPedVenta.vb" />
+    <Compile Include="Ventas\ClsGenerarAlbFactVenta.vb" />
+    <Compile Include="Ventas\clsPrecioOptimo.vb" />
+    <Compile Include="Ventas\clsDireccionFraPedidoVenta.vb" />
+    <Compile Include="Compras\ClsActualizarStockAlbCompra.vb" />
+    <Compile Include="Compras\ClsContabFactCompra.vb" />
+    <Compile Include="Compras\ClsCopiaFactCompra.vb" />
+    <Compile Include="Imagenes\ClsCtrlImages.vb" />
+    <Compile Include="Ventas\ClsCopiaFactVenta.vb" />
+    <Compile Include="Compras\ClsDescontabFactCompra.vb" />
+    <Compile Include="Compras\ClsGenerarFactCompra.vb" />
+    <Compile Include="Gestion Documental\ClsAltaDocumentosGD.vb" />
+    <Compile Include="Compras\ClsCerrarLineasAlbCompra.vb" />
+    <Compile Include="Compras\ClsDireccionPedCompra.vb" />
+    <Compile Include="Gestion Documental\ClsDocusRelacionadosGD.vb" />
+    <Compile Include="Compras\ClsGenerarAlbCompra.vb" />
+    <Compile Include="Gestion Documental\ClsVinculaDocumentoGD.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Ventas\ClsActualizarStockAlbVenta.vb" />
+    <Compile Include="Ventas\ClsContabFactVenta.vb" />
+    <Compile Include="Ventas\ClsDescontabFactVenta.vb" />
+    <Compile Include="Ventas\ClsDireccionPedVenta.vb" />
+    <Compile Include="Ventas\ClsGenerarAlbVenta.vb" />
+    <Compile Include="Ventas\ClsGenerarFactVenta.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Articulos\FrmCopiaArticulo.resx">
+      <DependentUpon>FrmCopiaArticulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendarios\FrmPrintPreview.resx">
+      <DependentUpon>FrmPrintPreview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\frmSeleccionarFecha.resx">
+      <DependentUpon>frmSeleccionarFecha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ELM\FrmSelecOpt.resx">
+      <DependentUpon>FrmSelecOpt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financiero\frmCierreContableEjercicio.resx">
+      <DependentUpon>frmCierreContableEjercicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financiero\frmDeshacerCierreContableEjercicio.resx">
+      <DependentUpon>frmDeshacerCierreContableEjercicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmContadorFechaAlbaran.resx">
+      <DependentUpon>frmContadorFechaAlbaran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmContadorFechaFactura.resx">
+      <DependentUpon>frmContadorFechaFactura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TablasAux\frmSatelites.resx">
+      <DependentUpon>frmSatelites.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

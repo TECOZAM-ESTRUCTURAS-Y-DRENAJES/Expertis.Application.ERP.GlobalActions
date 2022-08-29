@@ -1,0 +1,18 @@
+C:\Users\lgonzalez\Desktop\EXPERTIS\Bin\Expertis.Application.ERP.GlobalActions.dll
+C:\Users\lgonzalez\Desktop\EXPERTIS\Bin\Expertis.Application.ERP.GlobalActions.pdb
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Debug\Solmicro.Expertis.Application.ERP.GlobalActions.FrmCopiaArticulo.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Debug\Solmicro.Expertis.Application.ERP.GlobalActions.FrmPrintPreview.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Debug\Solmicro.Expertis.Application.ERP.GlobalActions.frmSeleccionarFecha.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Debug\Solmicro.Expertis.Application.ERP.GlobalActions.FrmSelecOpt.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Debug\Solmicro.Expertis.Application.ERP.GlobalActions.frmCierreContableEjercicio.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Debug\Solmicro.Expertis.Application.ERP.GlobalActions.frmDeshacerCierreContableEjercicio.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Debug\Solmicro.Expertis.Application.ERP.GlobalActions.frmContadorFechaAlbaran.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Debug\Solmicro.Expertis.Application.ERP.GlobalActions.frmContadorFechaFactura.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Debug\Solmicro.Expertis.Application.ERP.GlobalActions.Resources.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Debug\Solmicro.Expertis.Application.ERP.GlobalActions.frmSatelites.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Debug\Expertis.Application.ERP.GlobalActions.vbproj.GenerateResource.Cache
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Debug\Expertis.Application.ERP.GlobalActions.dll
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Debug\Expertis.Application.ERP.GlobalActions.pdb
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Debug\Solmicro.Expertis.Application.ERP.GlobalActions.DetalleActualizacionPagoPiso.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Debug\Expertis.Application.ERP.GlobalActions.dll.licenses

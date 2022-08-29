@@ -42,7 +42,7 @@
     <DefineDebug>false</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\..\..\..\..\..\..\ExpertisNet50R2test\Bin\</OutputPath>
+    <OutputPath>..\..\..\..\..\..\..\..\ExpertisNet50R2\Bin\</OutputPath>
     <DocumentationFile>
     </DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
@@ -90,7 +90,10 @@
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Expertis.Business.ClasesTecozam, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Expertis.Business.ClasesTecozam, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Expertis.Business.Compra, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <Private>False</Private>
     </Reference>
@@ -158,7 +161,10 @@
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
@@ -212,6 +218,13 @@
     <Compile Include="Compras\ClsCopiaPedCompra.vb" />
     <Compile Include="Compras\ClsGenerarAlbFactCompra.vb" />
     <Compile Include="Compras\ClsGenerarPedCompra.vb" />
+    <Compile Include="Compras\ClsGenerarPisoFactCompra.vb" />
+    <Compile Include="Compras\DetalleActualizacionPagoPiso.Designer.vb">
+      <DependentUpon>DetalleActualizacionPagoPiso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Compras\DetalleActualizacionPagoPiso.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Compras\frmSeleccionarFecha.Designer.vb">
       <DependentUpon>frmSeleccionarFecha.vb</DependentUpon>
     </Compile>
@@ -311,6 +324,9 @@
     <EmbeddedResource Include="Calendarios\FrmPrintPreview.resx">
       <DependentUpon>FrmPrintPreview.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Compras\DetalleActualizacionPagoPiso.resx">
+      <DependentUpon>DetalleActualizacionPagoPiso.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Compras\frmSeleccionarFecha.resx">
       <DependentUpon>frmSeleccionarFecha.vb</DependentUpon>
     </EmbeddedResource>
@@ -329,6 +345,7 @@
     <EmbeddedResource Include="Formularios\frmContadorFechaFactura.resx">
       <DependentUpon>frmContadorFechaFactura.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>

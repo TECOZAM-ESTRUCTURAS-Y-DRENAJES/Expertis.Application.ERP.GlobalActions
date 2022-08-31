@@ -1,0 +1,90 @@
+﻿Public Class frmContadorFechaFacturaCompra
+
+    Private MContador As String
+    Private MFecha As Date
+    Private MCliente As String
+
+    Public Property Contador() As String
+        Get
+            Return MContador
+        End Get
+        Set(ByVal value As String)
+            MContador = value
+        End Set
+    End Property
+
+    Public Property Fecha() As Date
+        Get
+            Return MFecha
+        End Get
+        Set(ByVal value As Date)
+            MFecha = value
+        End Set
+    End Property
+
+    Public Property Cliente() As String
+        Get
+            Return MCliente
+        End Get
+        Set(ByVal value As String)
+            MCliente = value
+        End Set
+    End Property
+
+    Protected Overridable Sub LoadData()
+        If Length(MContador) > 0 Then
+            Me.AdvContador.Value = MContador
+        Else 'Load Contador por defecto
+            Dim dt As DataTable = New Cliente().SelOnPrimaryKey(MCliente)
+            If Not IsNothing(dt) AndAlso dt.Rows.Count > 0 Then
+                If Length(dt.Rows(0)("IDcontadorCargo")) > 0 Then
+                    Me.AdvContador.Value = dt.Rows(0)("IDContadorCargo")
+                Else
+                    Me.AdvContador.Value = ExpertisApp.ExecuteTask(Of CentroGestion.ContadorEntidad, String)(AddressOf CentroGestion.GetContadorPredeterminadoCGestionUsuario, CentroGestion.ContadorEntidad.FacturaVenta)
+                End If
+            End If
+        End If
+        If Length(MFecha) > 0 Then Me.ClbFecha.Value = MFecha
+    End Sub
+
+    Private Function CheckData() As Boolean
+        If Length(Me.AdvContador.Value) = 0 Then
+            ExpertisApp.GenerateMessage("El Contador es un dato Obligatorio.", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+            Return False
+        End If
+        If Length(ClbFecha.Value) > 0 AndAlso ClbFecha.Value > Today.Date Then
+            If ExpertisApp.GenerateMessage("La fecha seleccionada es superior al día de hoy.|¿Desea cancelar el proceso y cambiar la fecha?", MessageBoxButtons.YesNo, MessageBoxIcon.Question, vbNewLine) = Windows.Forms.DialogResult.Yes Then
+                Return False
+            End If
+        End If
+        Return True
+    End Function
+
+    Private Sub SaveData()
+        MContador = Me.AdvContador.Value
+        If Length(Me.ClbFecha.Value) > 0 Then MFecha = Me.ClbFecha.Value
+    End Sub
+
+    Private Sub frmContadorFechaFactura_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If Not Me.DesignMode Then LoadData()
+    End Sub
+
+    'Private Sub AdvContador_SetPredefinedFilter(ByVal sender As Object, ByVal e As Engine.UI.AdvSearchFilterEventArgs)
+    '    e.Filter.Add("Entidad", FilterOperator.Equal, "FacturaCompraCabecera")
+    'End Sub
+
+    Private Sub BtnAceptar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnAceptar.Click
+        If CheckData() Then
+            SaveData()
+            Me.DialogResult = Windows.Forms.DialogResult.OK
+        End If
+    End Sub
+
+    Private Sub BtnCancelar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnCancelar.Click
+        Me.DialogResult = Windows.Forms.DialogResult.Cancel
+    End Sub
+
+    Private Sub AdvContador_SetPredefinedFilter_1(ByVal sender As System.Object, ByVal e As Solmicro.Expertis.Engine.UI.AdvSearchFilterEventArgs) Handles AdvContador.SetPredefinedFilter
+        e.Filter.Add("Entidad", FilterOperator.Equal, "FacturaCompraCabecera")
+    End Sub
+End Class

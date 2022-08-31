@@ -34,3 +34,4 @@ C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Ex
 C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Expertis.Application.ERP.GlobalActions.dll.licenses
 C:\ExpertisNet50R2\Bin\Expertis.Application.ERP.GlobalActions.dll
 C:\ExpertisNet50R2\Bin\Expertis.Application.ERP.GlobalActions.pdb
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.GlobalActions\obj\Release\Solmicro.Expertis.Application.ERP.GlobalActions.frmContadorFechaFacturaCompra.resources

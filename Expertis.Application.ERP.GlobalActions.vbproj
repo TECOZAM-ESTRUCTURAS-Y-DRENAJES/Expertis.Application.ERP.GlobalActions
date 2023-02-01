@@ -217,6 +217,7 @@
     <Compile Include="Compras\clsContabilizarProvisionAC.vb" />
     <Compile Include="Compras\ClsCopiaPedCompra.vb" />
     <Compile Include="Compras\ClsGenerarAlbFactCompra.vb" />
+    <Compile Include="Compras\ClsGenerarDocuwareFactCompra.vb" />
     <Compile Include="Compras\ClsGenerarPedCompra.vb" />
     <Compile Include="Compras\ClsGenerarPisoFactCompra.vb" />
     <Compile Include="Compras\DetalleActualizacionPagoPiso.Designer.vb">
